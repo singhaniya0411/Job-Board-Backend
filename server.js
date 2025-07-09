@@ -27,6 +27,10 @@ app.use("/api/jobs", jobRoutes);
 app.use("/api/users", userRoutes);
 
 const PORT = process.env.PORT || 5000;
+
+app.get("/", (req, res) => {
+  res.send("Job‑Board API is running ✅");
+});
 app.listen(PORT, () => {
   console.log(`Server running at port ${PORT}`);
 })
