@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+.env.*          # Optional: ignore all env variants like .env.local, .env.dev
+
+# Build output
+dist/
+build/
+client/build/
+server/dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: Ignore coverage reports
+coverage/
+
+# Optional: Ignore dotenv backup files
+.env.backup
+
+# Optional: Ignore log files for pm2 or nodemon
+*.log
+pm2.log
+nodemon.log
